@@ -1,0 +1,43 @@
+body{
+   margin: 0; 
+}
+h1{
+    font-size: 50px;
+}
+.Logo{
+    background-color: rgb(127, 239, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    font-size: 30px;
+}
+.Lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:30px;
+    font-size: 25px;
+    margin: 10px;
+}
+.Lista1{
+    background-color: rgb(255, 170, 170);
+    width: 100px;
+}
+.Principal{
+    background-color: rgb(244, 250, 250);
+    width: 1400px; 
+    border: solid 1px white;
+    text-align: center;
+}
+.Tudo{
+    display:flex;
+}
+.Menu{
+    background-color: rgb(223, 130, 130);
+    color: white;
+    height: 500px;
+    width: 230px;
+    text-align: center;
+    list-style: none;
+}
